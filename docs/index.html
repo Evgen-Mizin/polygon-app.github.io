@@ -1,0 +1,19 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Polygon App</title><style>body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    .toolbar {
+      display: flex;
+      gap: 10px;
+      padding: 10px;
+      background: #f0f0f0;
+    }
+    svg-zone, work-zone {
+      display: block;
+      border: 1px solid #ccc;
+    }</style><script defer="defer" src="bundle.js"></script></head><body><div class="container"><div class="toolbar"><button id="createBtn">Создать</button> <button id="saveBtn">Сохранить</button> <button id="clearBtn">Сбросить</button></div><svg-zone></svg-zone><work-zone></work-zone></div><script type="module" src="./main.js"></script></body></html>
